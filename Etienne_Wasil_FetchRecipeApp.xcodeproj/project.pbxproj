@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDC127572AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC127562AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeAppApp.swift */; };
+		CDC127592AAA0EFD005F68AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC127582AAA0EFD005F68AC /* ContentView.swift */; };
+		CDC1275B2AAA0EFF005F68AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC1275A2AAA0EFF005F68AC /* Assets.xcassets */; };
+		CDC1275F2AAA0EFF005F68AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC1275E2AAA0EFF005F68AC /* Preview Assets.xcassets */; };
+		CDC127692AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC127682AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppTests.swift */; };
+		CDC127732AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC127722AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITests.swift */; };
+		CDC127752AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC127742AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITestsLaunchTests.swift */; };
+		CDC127852AAA121D005F68AC /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC127842AAA121D005F68AC /* RecipeViewModel.swift */; };
+		CDC127882AAA1260005F68AC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC127872AAA1260005F68AC /* DataService.swift */; };
+		CDC1278A2AAA1282005F68AC /* RecipeInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC127892AAA1282005F68AC /* RecipeInformation.swift */; };
+		CDC1278D2AAA253A005F68AC /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1278C2AAA253A005F68AC /* URLs.swift */; };
+		CDC1278F2AAA2D14005F68AC /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1278E2AAA2D14005F68AC /* Meal.swift */; };
+		CDC127912AAA382C005F68AC /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC127902AAA382C005F68AC /* MealDetailView.swift */; };
+		CDC127932AAA3939005F68AC /* MealDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC127922AAA3939005F68AC /* MealDetailViewModel.swift */; };
+		CDC127952AAA666E005F68AC /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC127942AAA666E005F68AC /* SafariView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDC127652AAA0EFF005F68AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC1274B2AAA0EFD005F68AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC127522AAA0EFD005F68AC;
+			remoteInfo = Etienne_Wasil_FetchRecipeApp;
+		};
+		CDC1276F2AAA0EFF005F68AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC1274B2AAA0EFD005F68AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC127522AAA0EFD005F68AC;
+			remoteInfo = Etienne_Wasil_FetchRecipeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDC127532AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Etienne_Wasil_FetchRecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC127562AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etienne_Wasil_FetchRecipeAppApp.swift; sourceTree = "<group>"; };
+		CDC127582AAA0EFD005F68AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDC1275A2AAA0EFF005F68AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDC1275C2AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Etienne_Wasil_FetchRecipeApp.entitlements; sourceTree = "<group>"; };
+		CDC1275E2AAA0EFF005F68AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDC127642AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Etienne_Wasil_FetchRecipeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC127682AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etienne_Wasil_FetchRecipeAppTests.swift; sourceTree = "<group>"; };
+		CDC1276E2AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Etienne_Wasil_FetchRecipeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC127722AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etienne_Wasil_FetchRecipeAppUITests.swift; sourceTree = "<group>"; };
+		CDC127742AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etienne_Wasil_FetchRecipeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDC127842AAA121D005F68AC /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		CDC127872AAA1260005F68AC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CDC127892AAA1282005F68AC /* RecipeInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeInformation.swift; sourceTree = "<group>"; };
+		CDC1278C2AAA253A005F68AC /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		CDC1278E2AAA2D14005F68AC /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		CDC127902AAA382C005F68AC /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		CDC127922AAA3939005F68AC /* MealDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewModel.swift; sourceTree = "<group>"; };
+		CDC127942AAA666E005F68AC /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC127502AAA0EFD005F68AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC127612AAA0EFF005F68AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC1276B2AAA0EFF005F68AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDC1274A2AAA0EFD005F68AC = {
+			isa = PBXGroup;
+			children = (
+				CDC127552AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeApp */,
+				CDC127672AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppTests */,
+				CDC127712AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITests */,
+				CDC127542AAA0EFD005F68AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC127542AAA0EFD005F68AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC127532AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeApp.app */,
+				CDC127642AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppTests.xctest */,
+				CDC1276E2AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC127552AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeApp */ = {
+			isa = PBXGroup;
+			children = (
+				CDC1278B2AAA252F005F68AC /* Utilities */,
+				CDC127862AAA1255005F68AC /* Services */,
+				CDC127832AAA11DD005F68AC /* Models */,
+				CDC127812AAA11CC005F68AC /* Views */,
+				CDC127822AAA11D5005F68AC /* ViewModels */,
+				CDC127562AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeAppApp.swift */,
+				CDC1275A2AAA0EFF005F68AC /* Assets.xcassets */,
+				CDC1275C2AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeApp.entitlements */,
+				CDC1275D2AAA0EFF005F68AC /* Preview Content */,
+			);
+			path = Etienne_Wasil_FetchRecipeApp;
+			sourceTree = "<group>";
+		};
+		CDC1275D2AAA0EFF005F68AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDC1275E2AAA0EFF005F68AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDC127672AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC127682AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppTests.swift */,
+			);
+			path = Etienne_Wasil_FetchRecipeAppTests;
+			sourceTree = "<group>";
+		};
+		CDC127712AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC127722AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITests.swift */,
+				CDC127742AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITestsLaunchTests.swift */,
+			);
+			path = Etienne_Wasil_FetchRecipeAppUITests;
+			sourceTree = "<group>";
+		};
+		CDC127812AAA11CC005F68AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDC127582AAA0EFD005F68AC /* ContentView.swift */,
+				CDC127902AAA382C005F68AC /* MealDetailView.swift */,
+				CDC127942AAA666E005F68AC /* SafariView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDC127822AAA11D5005F68AC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CDC127842AAA121D005F68AC /* RecipeViewModel.swift */,
+				CDC127922AAA3939005F68AC /* MealDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CDC127832AAA11DD005F68AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDC127892AAA1282005F68AC /* RecipeInformation.swift */,
+				CDC1278E2AAA2D14005F68AC /* Meal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDC127862AAA1255005F68AC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CDC127872AAA1260005F68AC /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CDC1278B2AAA252F005F68AC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CDC1278C2AAA253A005F68AC /* URLs.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC127522AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC127782AAA0EFF005F68AC /* Build configuration list for PBXNativeTarget "Etienne_Wasil_FetchRecipeApp" */;
+			buildPhases = (
+				CDC1274F2AAA0EFD005F68AC /* Sources */,
+				CDC127502AAA0EFD005F68AC /* Frameworks */,
+				CDC127512AAA0EFD005F68AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Etienne_Wasil_FetchRecipeApp;
+			productName = Etienne_Wasil_FetchRecipeApp;
+			productReference = CDC127532AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDC127632AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC1277B2AAA0EFF005F68AC /* Build configuration list for PBXNativeTarget "Etienne_Wasil_FetchRecipeAppTests" */;
+			buildPhases = (
+				CDC127602AAA0EFF005F68AC /* Sources */,
+				CDC127612AAA0EFF005F68AC /* Frameworks */,
+				CDC127622AAA0EFF005F68AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC127662AAA0EFF005F68AC /* PBXTargetDependency */,
+			);
+			name = Etienne_Wasil_FetchRecipeAppTests;
+			productName = Etienne_Wasil_FetchRecipeAppTests;
+			productReference = CDC127642AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDC1276D2AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC1277E2AAA0EFF005F68AC /* Build configuration list for PBXNativeTarget "Etienne_Wasil_FetchRecipeAppUITests" */;
+			buildPhases = (
+				CDC1276A2AAA0EFF005F68AC /* Sources */,
+				CDC1276B2AAA0EFF005F68AC /* Frameworks */,
+				CDC1276C2AAA0EFF005F68AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC127702AAA0EFF005F68AC /* PBXTargetDependency */,
+			);
+			name = Etienne_Wasil_FetchRecipeAppUITests;
+			productName = Etienne_Wasil_FetchRecipeAppUITests;
+			productReference = CDC1276E2AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC1274B2AAA0EFD005F68AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CDC127522AAA0EFD005F68AC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CDC127632AAA0EFF005F68AC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CDC127522AAA0EFD005F68AC;
+					};
+					CDC1276D2AAA0EFF005F68AC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CDC127522AAA0EFD005F68AC;
+					};
+				};
+			};
+			buildConfigurationList = CDC1274E2AAA0EFD005F68AC /* Build configuration list for PBXProject "Etienne_Wasil_FetchRecipeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC1274A2AAA0EFD005F68AC;
+			productRefGroup = CDC127542AAA0EFD005F68AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC127522AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeApp */,
+				CDC127632AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppTests */,
+				CDC1276D2AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC127512AAA0EFD005F68AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC1275F2AAA0EFF005F68AC /* Preview Assets.xcassets in Resources */,
+				CDC1275B2AAA0EFF005F68AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC127622AAA0EFF005F68AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC1276C2AAA0EFF005F68AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC1274F2AAA0EFD005F68AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC127592AAA0EFD005F68AC /* ContentView.swift in Sources */,
+				CDC127572AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeAppApp.swift in Sources */,
+				CDC1278F2AAA2D14005F68AC /* Meal.swift in Sources */,
+				CDC127852AAA121D005F68AC /* RecipeViewModel.swift in Sources */,
+				CDC127952AAA666E005F68AC /* SafariView.swift in Sources */,
+				CDC127912AAA382C005F68AC /* MealDetailView.swift in Sources */,
+				CDC127882AAA1260005F68AC /* DataService.swift in Sources */,
+				CDC1278A2AAA1282005F68AC /* RecipeInformation.swift in Sources */,
+				CDC127932AAA3939005F68AC /* MealDetailViewModel.swift in Sources */,
+				CDC1278D2AAA253A005F68AC /* URLs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC127602AAA0EFF005F68AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC127692AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC1276A2AAA0EFF005F68AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC127732AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITests.swift in Sources */,
+				CDC127752AAA0EFF005F68AC /* Etienne_Wasil_FetchRecipeAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDC127662AAA0EFF005F68AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC127522AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeApp */;
+			targetProxy = CDC127652AAA0EFF005F68AC /* PBXContainerItemProxy */;
+		};
+		CDC127702AAA0EFF005F68AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC127522AAA0EFD005F68AC /* Etienne_Wasil_FetchRecipeApp */;
+			targetProxy = CDC1276F2AAA0EFF005F68AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDC127762AAA0EFF005F68AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDC127772AAA0EFF005F68AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CDC127792AAA0EFF005F68AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Etienne_Wasil_FetchRecipeApp/Etienne_Wasil_FetchRecipeApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Etienne_Wasil_FetchRecipeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZNYN7P8BT5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etiennewasil.Etienne-Wasil-FetchRecipeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDC1277A2AAA0EFF005F68AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Etienne_Wasil_FetchRecipeApp/Etienne_Wasil_FetchRecipeApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Etienne_Wasil_FetchRecipeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZNYN7P8BT5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etiennewasil.Etienne-Wasil-FetchRecipeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDC1277C2AAA0EFF005F68AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZNYN7P8BT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etiennewasil.Etienne-Wasil-FetchRecipeAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Etienne_Wasil_FetchRecipeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Etienne_Wasil_FetchRecipeApp";
+			};
+			name = Debug;
+		};
+		CDC1277D2AAA0EFF005F68AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZNYN7P8BT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etiennewasil.Etienne-Wasil-FetchRecipeAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Etienne_Wasil_FetchRecipeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Etienne_Wasil_FetchRecipeApp";
+			};
+			name = Release;
+		};
+		CDC1277F2AAA0EFF005F68AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZNYN7P8BT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etiennewasil.Etienne-Wasil-FetchRecipeAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Etienne_Wasil_FetchRecipeApp;
+			};
+			name = Debug;
+		};
+		CDC127802AAA0EFF005F68AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZNYN7P8BT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etiennewasil.Etienne-Wasil-FetchRecipeAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Etienne_Wasil_FetchRecipeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC1274E2AAA0EFD005F68AC /* Build configuration list for PBXProject "Etienne_Wasil_FetchRecipeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC127762AAA0EFF005F68AC /* Debug */,
+				CDC127772AAA0EFF005F68AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC127782AAA0EFF005F68AC /* Build configuration list for PBXNativeTarget "Etienne_Wasil_FetchRecipeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC127792AAA0EFF005F68AC /* Debug */,
+				CDC1277A2AAA0EFF005F68AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC1277B2AAA0EFF005F68AC /* Build configuration list for PBXNativeTarget "Etienne_Wasil_FetchRecipeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC1277C2AAA0EFF005F68AC /* Debug */,
+				CDC1277D2AAA0EFF005F68AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC1277E2AAA0EFF005F68AC /* Build configuration list for PBXNativeTarget "Etienne_Wasil_FetchRecipeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC1277F2AAA0EFF005F68AC /* Debug */,
+				CDC127802AAA0EFF005F68AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC1274B2AAA0EFD005F68AC /* Project object */;
+}
